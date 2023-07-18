@@ -1,6 +1,6 @@
 export const Bio = {
   name: "Ahmed Safta",
-  roles: ["MERN Stack developer ", "Spring Boot Developer", "Telecommunication Engineer"],
+  roles: ["Telecommunication Engineer","MERN Stack developer ", "Spring Boot Developer",],
   description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/AhmedSafta71",
   resume: "https://drive.google.com/file/d/1nS1qfC-yHi7zd_Z-7iqRPGxqgKKJKf5j/view?usp=sharing",
@@ -258,7 +258,7 @@ export const projects = [
     image: 'https://res.cloudinary.com/paypos/image/upload/v1689365268/Safta-Portfolio/ezgif.com-video-to-gif_1_hmf8iy.gif',
     tags: ['JavaScript','HTML5'],
     category: 'web app',
-    github: 'https://github.com/rishavchanda/Whatsapp-Clone-React-Js',
+    github: '',
     webapp: '',
     member: [
       {
