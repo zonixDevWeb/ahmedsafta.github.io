@@ -129,7 +129,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: 'https://www.keejob.com/media/recruiter/recruiter_6041/logo_20140414-085309.jpg',
+    img: '',
     role: 'Spring boot Developer Intern',
     company: 'Proxym Group',
     date: 'Present',
@@ -139,13 +139,13 @@ export const experiences = [
   },
   {
     id: 1,
-    img: 'http://www.cepex.nat.tn/upload/file_manager/images/paypos%20logo%201.jpeg',
+    img: 'https://res.cloudinary.com/paypos/image/upload/v1689701745/Lettre_d_affectation_s5hozh.jpg',
     role: 'Node js Developer intern',
     company: 'PayPos',
     date: 'july 2022',
     desc: 'Design and development of a backend API using Node.JS enviornment and Express Framework for an e-commerce website in collaboration with a React.js developer',
     skills: ['JavaScript', 'Node js', 'Express js', 'Mongo DB'],
-    doc: 'https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc'
+    doc: 'https://res.cloudinary.com/paypos/image/upload/v1689701745/Lettre_d_affectation_s5hozh.jpg'
   },
   {
     id: 2,
