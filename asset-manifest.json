@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ahmedsafta.github.io/static/css/main.bf538fe7.css",
-    "main.js": "/ahmedsafta.github.io/static/js/main.978c82f6.js",
+    "main.js": "/ahmedsafta.github.io/static/js/main.92581b27.js",
     "static/media/Sujet.png": "/ahmedsafta.github.io/static/media/Sujet.0d17147b84f2e472038b.png",
     "index.html": "/ahmedsafta.github.io/index.html",
     "main.bf538fe7.css.map": "/ahmedsafta.github.io/static/css/main.bf538fe7.css.map",
-    "main.978c82f6.js.map": "/ahmedsafta.github.io/static/js/main.978c82f6.js.map"
+    "main.92581b27.js.map": "/ahmedsafta.github.io/static/js/main.92581b27.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.978c82f6.js"
+    "static/js/main.92581b27.js"
   ]
 }
