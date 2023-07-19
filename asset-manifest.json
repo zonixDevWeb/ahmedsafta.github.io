@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ahmedsafta.github.io/static/css/main.bf538fe7.css",
-    "main.js": "/ahmedsafta.github.io/static/js/main.92581b27.js",
-    "static/media/Sujet.png": "/ahmedsafta.github.io/static/media/Sujet.0d17147b84f2e472038b.png",
-    "index.html": "/ahmedsafta.github.io/index.html",
-    "main.bf538fe7.css.map": "/ahmedsafta.github.io/static/css/main.bf538fe7.css.map",
-    "main.92581b27.js.map": "/ahmedsafta.github.io/static/js/main.92581b27.js.map"
+    "main.css": "/public/static/css/main.bf538fe7.css",
+    "main.js": "/public/static/js/main.a2572ac6.js",
+    "static/media/Sujet.png": "/public/static/media/Sujet.0d17147b84f2e472038b.png",
+    "index.html": "/public/index.html",
+    "main.bf538fe7.css.map": "/public/static/css/main.bf538fe7.css.map",
+    "main.a2572ac6.js.map": "/public/static/js/main.a2572ac6.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.92581b27.js"
+    "static/js/main.a2572ac6.js"
   ]
 }
