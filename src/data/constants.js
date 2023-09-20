@@ -134,7 +134,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: '',
+    img: 'https://res.cloudinary.com/paypos/image/upload/v1695244951/proxyym_uha3wb.png',
     role: 'MERN stack Devoloper-OCR solution integrator  Intern',
     company: 'Proxym Group',
     date: 'July-August 2023',
@@ -144,13 +144,13 @@ export const experiences = [
   },
   {
     id: 1,
-    img: 'https://res.cloudinary.com/paypos/image/upload/v1689701745/Lettre_d_affectation_s5hozh.jpg',
+    img: 'https://res.cloudinary.com/paypos/image/upload/v1695245286/paypos_i8gi8y.png',
     role: 'Node.js Developer intern',
     company: 'PayPos',
     date: 'july 2022',
     desc: 'Design and development of a backend API using Node.JS enviornment and Express Framework for an e-commerce website in collaboration with a React.js developer',
     skills: ['JavaScript', 'Node js', 'Express js', 'Mongo DB'],
-    doc: 'https://res.cloudinary.com/paypos/image/upload/v1689701745/Lettre_d_affectation_s5hozh.jpg'
+    doc: 'https://res.cloudinary.com/paypos/image/upload/v1695229686/attetation_de_stage_1__3_page-0001_vpnnaq.jpg'
   },
   {
     id: 2,
@@ -167,7 +167,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: 'https://res.cloudinary.com/paypos/image/upload/v1695229686/attetation_de_stage_1__3_page-0001_vpnnaq.jpg',
+    img: 'https://res.cloudinary.com/paypos/image/upload/v1689260553/Safta-Portfolio/enetcom_zyuykb.png',
     school: "National School of Electronics and Telecoms of Sfax (ENET'Com)" ,
     date: 'sep 2021 - Sep 2024',
     grade: 'Final Year Telecommunication Engineer - Cyber Sevurity Sector  ',
@@ -176,7 +176,7 @@ export const education = [
   },
   {
     id: 1,
-    img: 'https://res.cloudinary.com/paypos/image/upload/v1695229686/attetation_de_stage_1__3_page-0001_vpnnaq.jpg',
+    img: 'https://res.cloudinary.com/paypos/image/upload/v1689328821/Safta-Portfolio/ipeim_iro2x9.jpg',
     school: 'Monastir Preparatory Engineering Institute',
     date: 'Apr 2019 - Apr 2025',
     grade: '',
