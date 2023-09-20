@@ -1,9 +1,9 @@
 export const Bio = {
   name: "Ahmed Safta",
-  roles: ["Telecommunication Engineer","MERN Stack developer ", "Spring Boot Developer",],
+  roles: ["Cyber Security Engineer","MERN Stack developer ", "Spring Boot Developer",],
   description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/AhmedSafta71",
-  resume: "https://drive.google.com/file/d/1nS1qfC-yHi7zd_Z-7iqRPGxqgKKJKf5j/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/19mFdwMoAQ8Bf-CYV1-Zco2NBlt8hctVk/view?usp=drive_link",
   linkedin: "www.linkedin.com/in/safta-ahmed-094a6321a",
   insta: "https://www.instagram.com/safta.ahmed/",
   facebook: "https://www.facebook.com/ahmed.safta.7",
@@ -59,7 +59,7 @@ export const skills = [
       },
       {
         name: 'Spring Boot ',
-        image: 'https://user-images.githubusercontent.com/33158051/103466606-760a4000-4d14-11eb-9941-2f3d00371471.png',
+        image: 'https://vscjava.gallerycdn.vsassets.io/extensions/vscjava/vscode-spring-boot-dashboard/0.13.2023072200/1689984300042/Microsoft.VisualStudio.Services.Icons.Default',
       },
       {
         name: 'Java',
@@ -111,6 +111,11 @@ export const skills = [
         name: 'Docker',
         image: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg',
       },
+      {
+        name: 'Jenkins',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg',
+      },
+  
   
       {
         name: 'VS Code',
@@ -130,17 +135,17 @@ export const experiences = [
   {
     id: 0,
     img: '',
-    role: 'Spring boot Developer Intern',
+    role: 'MERN stack Devoloper-OCR solution integrator  Intern',
     company: 'Proxym Group',
-    date: 'Present',
+    date: 'July-August 2023',
     desc: 'Working on the backend of the web Banking application using java, Spring Boot Framework.',
-    skills: ['Java', 'Spring', 'Spring Boot', 'JWT', 'Spring Security', 'OAuth2'],
+    skills: ['Image preprocessing', 'python-Flask API', 'React Js', 'node Js ', 'Mongo db'],
     doc: "",
   },
   {
     id: 1,
     img: 'https://res.cloudinary.com/paypos/image/upload/v1689701745/Lettre_d_affectation_s5hozh.jpg',
-    role: 'Node js Developer intern',
+    role: 'Node.js Developer intern',
     company: 'PayPos',
     date: 'july 2022',
     desc: 'Design and development of a backend API using Node.JS enviornment and Express Framework for an e-commerce website in collaboration with a React.js developer',
@@ -150,7 +155,7 @@ export const experiences = [
   {
     id: 2,
     img: 'https://upload.wikimedia.org/wikipedia/fr/f/f9/LOGO_TT_.jpg',
-    role: 'Tunsie  Telecom  Intern  ',
+    role: 'Tunsie Telecom Intern  ',
     company: 'Tunisie Telecom',
     date: 'June 2022',
     desc: "Internship as a technician, involving supply of high and medium speed internet to Tunisia Telecom customers. Tasks included handling of fiber optic cables and training on mobile networks such as 2G-3G-4G-5G",
@@ -162,7 +167,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: 'https://res.cloudinary.com/paypos/image/upload/v1689260553/Safta-Portfolio/enetcom_zyuykb.png',
+    img: 'https://res.cloudinary.com/paypos/image/upload/v1695229686/attetation_de_stage_1__3_page-0001_vpnnaq.jpg',
     school: "National School of Electronics and Telecoms of Sfax (ENET'Com)" ,
     date: 'sep 2021 - Sep 2024',
     grade: 'Final Year Telecommunication Engineer - Cyber Sevurity Sector  ',
@@ -171,7 +176,7 @@ export const education = [
   },
   {
     id: 1,
-    img: 'https://res.cloudinary.com/paypos/image/upload/v1689328821/Safta-Portfolio/ipeim_iro2x9.jpg',
+    img: 'https://res.cloudinary.com/paypos/image/upload/v1695229686/attetation_de_stage_1__3_page-0001_vpnnaq.jpg',
     school: 'Monastir Preparatory Engineering Institute',
     date: 'Apr 2019 - Apr 2025',
     grade: '',
@@ -188,7 +193,27 @@ export const education = [
   },
 ]
 export const projects = [
-
+  {
+    id: 10,
+    title: ' AWS Project : lift & shift application workload ',
+    date: 'July 2023',
+    description: "The project aims to migrate a web application worklod running on local server to the cloud using amazon web services: Elastic load balancers (ELB),EC2 instances,Route53 S3 bucket,IAM. ",
+    image: 'https://res.cloudinary.com/paypos/image/upload/v1695164939/ezgif.com-gif-maker_2_qngtcq.gif',
+    tags: ['AWS','EC2','Security groups ','Route53','IAM','S3 bucket','Auto scaling groups','NameCheap Domain name',"Certificate Authority" ,'IAAS','PayAsUgo',"Automation"],
+    category: 'Devops project',
+    github: '',
+    member: [
+      {
+        name: 'Ahmed Safta',
+        img: 'https://res.cloudinary.com/paypos/image/upload/v1689259782/Safta-Portfolio/cv_cznnz9.png',
+        linkedin: 'www.linkedin.com/in/safta-ahmed-094a6321a',
+        github: 'https://github.com/AhmedSafta71',
+      },
+  
+    ]
+  },
+ 
+ 
   {
     id: 3,
     title: 'NASA App',
@@ -229,6 +254,26 @@ export const projects = [
    
     ]
   },
+  {
+    id: 8, 
+    title: 'Login password cracking',
+    date: 'Jan 2021',
+    description: "In the context of this project, I chose a vulnerable web page (Mutillidae) from the Metasploitable machine to crack the authentication password. To intercept the traffic, I used the Burp Suite software. Once the desired data has been collected, we will carry out the brute force attack using the Hydra tool.",
+    image: 'https://res.cloudinary.com/paypos/image/upload/v1689375677/ezgif.com-video-to-gif_3_okn4au.gif',
+    tags: ['Kali Linux', 'hydra ', 'Metasploitable', 'Mutillidae', 'Mimikatz', 'Burpsuite'],
+    category: 'Security project',
+    github: 'https://github.com/AhmedSafta71',
+    webapp: '',
+    member: [
+      {
+        name: 'Ahmed Safta',
+        img: 'https://res.cloudinary.com/paypos/image/upload/v1689259782/Safta-Portfolio/cv_cznnz9.png',
+        linkedin: "www.linkedin.com/in/safta-ahmed-094a6321a",
+        github: 'https://github.com/AhmedSafta71'
+      },
+   
+    ]
+  },
 
   {
     id: 1,
@@ -236,13 +281,13 @@ export const projects = [
     date: 'Jan 2023 - Jun 2023',
     description: "The DoctoChat application is a web application open to private doctors sector in Tunisia as well as to regular users. The application offers, on one hand, an advertising approach todoctors who own medical practices. On the other hand, the platform allows authenticated users to monitor their health status through a secure patient-doctor messaging service.Responses are provided by reliable and active healthcare experts on the site. The number of responses and their relevance level are determining factors for distinguishing doctors.",
     image: 'https://res.cloudinary.com/paypos/image/upload/v1689347728/PFA_images/Capture_d_%C3%A9cran_2023-07-14_171003_nwij1t.png',
-    tags: ['React js','Redux', 'Bootstrap 5','Node js','Express js', 'Mongo DB', 'OAuth2','Stripe API','Axios'],
+    tags: ['React js','Redux', 'Bootstrap 5','Node.js','Express.js', 'Mongo DB', 'OAuth2','Stripe API','Axios'],
     category: 'web app',
     github: 'https://github.com/AhmedSafta71/PFA_Medical_App_Front-End',
     member: [
       {
         name: 'Ahmed Safta',
-        img: 'https://avatars.githubusercontent.com/u/64485885?v=4',
+        img: 'https://res.cloudinary.com/paypos/image/upload/v1689259782/Safta-Portfolio/cv_cznnz9.png',
         linkedin: 'www.linkedin.com/in/safta-ahmed-094a6321a',
         github: 'https://github.com/AhmedSafta71'
       },
@@ -274,7 +319,7 @@ export const projects = [
     id: 5,
     title: 'The Ninja Book',
     date: 'Jun 2022',
-    description: "Single web page made 100% with bootstrap made as part of a bootstrap tutorial ",
+    description: "Single web page made with html and bootstrap made as part of a bootstrap tutorial ",
     image: 'https://res.cloudinary.com/paypos/image/upload/v1689360773/Safta-Portfolio/ezgif.com-video-to-gif_opfdfp.gif',
     tags: ['HTML5', 'Bootstrap5'],
     category: 'web app',
@@ -330,26 +375,28 @@ export const projects = [
    
     ]
   },
+  
   {
-    id: 8,
-    title: 'Brute Force with Hydra',
-    date: 'Jan 2021',
-    description: "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image: 'https://res.cloudinary.com/paypos/image/upload/v1689375677/ezgif.com-video-to-gif_3_okn4au.gif',
-    tags: ['Kali Linux', 'hydra ', 'Metasploitable', 'Mutillidae', 'Mimikatz', 'Burpsuite'],
-    category: 'Security project',
+    id: 9,
+    title: 'Multi tier web app workload ',
+    date: 'July 2023',
+    description: "Created and provisioned virtual machines (VMs), configured services including NGINX, Memcached, RabbitMQ, and MySQL. Developed a Java application and deployed the artifact on a virtual machine running Tomcat.",
+    image: 'https://res.cloudinary.com/paypos/image/upload/v1695165418/ezgif.com-gif-maker_3_alsrtc.gif',
+    tags: ['Virtual machines','Vagrant', 'NGINX','TOMCAT','RabbitMQ', 'MEMCACHED', 'MYSQL','Java app'],
+    category: 'Devops project',
     github: '',
-    webapp: '',
     member: [
       {
         name: 'Ahmed Safta',
         img: 'https://res.cloudinary.com/paypos/image/upload/v1689259782/Safta-Portfolio/cv_cznnz9.png',
-        linkedin: "www.linkedin.com/in/safta-ahmed-094a6321a",
+        linkedin: 'www.linkedin.com/in/safta-ahmed-094a6321a',
         github: 'https://github.com/AhmedSafta71'
       },
-   
+  
     ]
   },
+ 
+
 ];
 
 export const TimeLineData = [

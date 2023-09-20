@@ -28,15 +28,15 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'Devops Projects' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('Devops project')}></ToggleButton>
+            <ToggleButton active value="Devops project" onClick={() => setToggle('Devops project')}></ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>Devops Projects</ToggleButton>
+            <ToggleButton value="Devops project" onClick={() => setToggle('Devops project')}>Devops Projects</ToggleButton>
           }
           <Divider />
           {toggle === 'Security Projects' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('Security project')}>Security Projects</ToggleButton>
+            <ToggleButton active value="Security project " onClick={() => setToggle('Security project')}>Security Projects</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('Security project')}>Security Projects</ToggleButton>
+            <ToggleButton value="Security project" onClick={() => setToggle('Security project')}>Security Projects</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
