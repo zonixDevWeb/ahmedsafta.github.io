@@ -3,7 +3,7 @@ export const Bio = {
   roles: ["Cyber Security Engineer","MERN Stack developer ", "Spring Boot Developer",],
   description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/AhmedSafta71",
-  resume: "https://drive.google.com/file/d/19mFdwMoAQ8Bf-CYV1-Zco2NBlt8hctVk/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/10pG0Ccre_gNoeE3YQD3Rgbr3IqK1h1q8/view?usp=sharing",
   linkedin: "www.linkedin.com/in/safta-ahmed-094a6321a",
   insta: "https://www.instagram.com/safta.ahmed/",
   facebook: "https://www.facebook.com/ahmed.safta.7",
