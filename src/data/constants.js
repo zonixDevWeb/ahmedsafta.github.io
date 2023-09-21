@@ -138,7 +138,7 @@ export const experiences = [
     role: 'MERN stack Devoloper-OCR solution integrator  Intern',
     company: 'Proxym Group',
     date: 'July-August 2023',
-    desc: 'Development and integration of a MERN stack banking  application enabling a credit request with National Identity card data extraction implmenting the  OCR technique.',
+    desc: 'Development and integration of a MERN stack banking  application enabling a credit request with National Identity card data extraction implementing the  OCR technique.',
     skills: ['Image preprocessing', 'python-Flask API', 'React Js', 'node Js ', 'Mongo db'],
     doc: "",
   },
