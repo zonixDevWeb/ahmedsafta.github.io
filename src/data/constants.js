@@ -1,6 +1,6 @@
 export const Bio = {
   name: "Ahmed Safta",
-  roles: ["Cyber Security Engineer","MERN Stack developer ", "Spring Boot Developer",],
+  roles: ["DevOps enthusiast","MERN Stack developer","Cyber Security Engineer"],
   description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/AhmedSafta71",
   resume: "https://drive.google.com/file/d/10pG0Ccre_gNoeE3YQD3Rgbr3IqK1h1q8/view?usp=sharing",
@@ -193,6 +193,29 @@ export const education = [
   },
 ]
 export const projects = [
+
+  {
+    id: 11,
+    title: ' CI Project : Continuous integration with Jenkins and  tools',
+    date: 'November 2023',
+    description: "The project aims to create an automated process for code build test and commit using Jenkins as a  main continuous integration tool, Nexus for storing artifacts and dependencies , SonaQube for continous code test and inspection.The project also integrates Slack to notify developers about every build status.",
+    image: 'https://asset.cloudinary.com/paypos/95dcacbd07f041c5c5fbb08b4e5857fb',
+    tags: ['Jenkins','Git','Nexus Sonatype','SonarQube','CheckStyle','Gihub WebHooks','Slack notifier'],
+    category: 'Devops project',
+    github: '',
+    member: [
+      {
+        name: 'Ahmed Safta',
+        img: 'https://res.cloudinary.com/paypos/image/upload/v1689259782/Safta-Portfolio/cv_cznnz9.png',
+        linkedin: 'www.linkedin.com/in/safta-ahmed-094a6321a',
+        github: 'https://github.com/AhmedSafta71',
+      },
+  
+    ]
+  },
+
+
+
   {
     id: 10,
     title: ' AWS Project : lift & shift application workload ',
