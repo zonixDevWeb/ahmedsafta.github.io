@@ -199,7 +199,7 @@ export const projects = [
     title: ' CI Project : Continuous integration with Jenkins and  tools',
     date: 'November 2023',
     description: "The project aims to create an automated process for code build test and commit using Jenkins as a  main continuous integration tool, Nexus for storing artifacts and dependencies , SonaQube for continous code test and inspection.The project also integrates Slack to notify developers about every build status.",
-    image: 'https://asset.cloudinary.com/paypos/95dcacbd07f041c5c5fbb08b4e5857fb',
+    image: 'https://res.cloudinary.com/paypos/image/upload/v1702868597/ezgif.com-speed_qoqfuu.gif',
     tags: ['Jenkins','Git','Nexus Sonatype','SonarQube','CheckStyle','Gihub WebHooks','Slack notifier'],
     category: 'Devops project',
     github: '',
