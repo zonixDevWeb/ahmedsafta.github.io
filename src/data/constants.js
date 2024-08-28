@@ -1,25 +1,179 @@
 export const Bio = {
   name: "Ahmed Safta",
-  roles: ["DevOps enthusiast","MERN Stack developer","Cyber Security Engineer"],
+  roles: ["DevOps engineer","Cyber Security Enthusiast"],
   description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/AhmedSafta71",
-  resume: "https://drive.google.com/file/d/10pG0Ccre_gNoeE3YQD3Rgbr3IqK1h1q8/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1rMqMc8FaCzICMbOhDluVaYkNdFR_NbqT/view?usp=sharing",
   linkedin: "www.linkedin.com/in/safta-ahmed-094a6321a",
+  // Medium: "https://medium.com/@ahmedsafta71",
   insta: "https://www.instagram.com/safta.ahmed/",
   facebook: "https://www.facebook.com/ahmed.safta.7",
 }
 
 export const skills = [
   {
-    title: 'Frontend',
+    title: 'Amazon Web Services',
+    skills: [
+      {
+        name: 'AWS Lambda',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Amazon_Lambda_architecture_logo.svg',
+      },
+      {
+        name: 'AWS Step Functions',
+        image: 'https://cdn.prod.website-files.com/60f955236a773f743298d63b/6148e736908efd816f7d4a2d_16yq8ybul2Pvu4cgJbVCCszAKD93ku3HDUvf5Iyaj3swdzWt626_2alUm1L9lCRd2yienu6clcde2f_XOFwbf2eDX70BV-piIL9qH-igHyYUbUQsiRNbYIDDP8VTElOSW4TSF6c8%3Ds0.png'
+      },
+      {
+        name: 'Amazon DMS',
+        image: 'https://cloud-icons.onemodel.app/aws/Architecture-Service-Icons_01312023/Arch_Database/64/Arch_AWS-Database-Migration-Service_64.svg',
+      },
+      {
+        name: 'Amazon ECS',
+        image: 'https://d3g9o9u8re44ak.cloudfront.net/logo/5cd326ff-a018-4472-b384-15142bfe5d2c/4862aa6a-08fc-4290-b05e-3012c4e57a92.png',
+      },
+      {
+        name: 'AWS RDS',
+        image: 'https://help.sumologic.com/img/integrations/amazon-aws/rds.png',
+      },
+    
+      {
+        name: 'EFS',
+        image: 'https://seeklogo.com/images/A/amazon-elastic-file-system-logo-E7053CDC9F-seeklogo.com.png',
+      },
+      {
+        name: 'Amazon S3',
+        image: 'https://seeklogo.com/images/A/amazon-s3-simple-storage-service-logo-9A3F37976E-seeklogo.com.png',
+      },
+      {
+        name: 'AWS Backup',
+        image: 'https://d2908q01vomqb2.cloudfront.net/17ba0791499db908433b80f37c5fbc89b870084b/2023/05/10/Screenshot-2023-05-10-at-7.26.31-PM.png',
+      },
+      {
+        name: 'KMS',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1eMYmFn7kZ1TiskvzC7Vn-9Wf2XRHJaFjiA&s',
+      },
+      {
+        name: 'CloudWatch',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmJWNXq74Q-5TP0-VGhxGhKiO6yCOx0LoGpw&s',
+      },
+    
+      {
+        name: 'API Gateway',
+        image: 'https://raw.githubusercontent.com/pulumi/pulumi-aws-apigateway/main/assets/logo.png',
+      },
+      {
+        name: 'Route 53',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiMHJqSAbtbbt1SS9cQOTqW2XlhIjlAtEGew&s',
+      },
+      {
+        name: 'Amazon ALB - ELB',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ47Ji1yhUawSLNBXPp8UERlP7nKo3d1f2EKw&s',
+      },
+      {
+        name: 'Amazon BeanStalk',
+        image: 'https://seeklogo.com/images/A/aws-elastic-beanstalk-logo-BA204C47D0-seeklogo.com.png',
+      },
+
+    ],
+  },
+  {
+    title: 'DevOps',
+    skills: [
+      {
+        name: 'CI/CD',
+        image: 'https://www.mabl.com/hs-fs/hubfs/CICDBlog.png?width=536&name=CICDBlog.png',
+      },
+      {
+        name: 'Jenkins',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg',
+      },
+      {
+        name: 'Nexus',
+        image: 'https://cdn.prod.website-files.com/5f10ed4c0ebf7221fb5661a5/5f2af61146c55b6e172fa5b3_NexusRepo_Icon.png'
+      },
+      {
+        name: 'SonarQube',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvqkMiBiV9TvU-YBVIVPWh3GOeOspg1VECrQ&s',
+      },
+    
+      {
+        name: 'Terraform',
+        image: 'https://static-00.iconduck.com/assets.00/file-type-terraform-icon-455x512-csyun60o.png',
+      },
+      {
+        name: 'Vagrant',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Vagrant.png',
+      },
+      {
+        name: 'Docker',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAJH4R87uV3Rvncs3L3urjeNESAfJGTMTrA&s',
+      },
+      {
+        name: 'Kubernetes',
+        image: 'https://juststickers.in/wp-content/uploads/2018/11/kubernetes-wordmark.png',
+      }, 
+      {
+        name: 'Git',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png',
+      },
+  
+      {
+        name: 'Bitbucket',
+        image: 'https://static-00.iconduck.com/assets.00/bitbucket-icon-454x512-57v0di9k.png',
+      },
+      {
+        name: 'Jira',
+        image: 'https://static-00.iconduck.com/assets.00/bitbucket-icon-454x512-57v0di9k.png',
+      },
+ 
+   
+    ],
+  },
+ 
+  {
+    title: 'Services & Operating Systems',
+    skills: [
+      {
+        name: 'Nginx',
+        image:'https://static-00.iconduck.com/assets.00/file-type-nginx-icon-1793x2048-yt5u3fm7.png',
+      },
+      {
+        name: 'Tomcat',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAbeutmuJiOxGb4D7UVNgWA2kQJIJUlab2rQ&s',
+        },
+      {
+      name: 'RabbitMq',
+      image:'https://static-00.iconduck.com/assets.00/rabbitmq-icon-484x512-s9lfaapn.png',
+      },
+      {
+        name: 'MencacheD',
+        image: 'https://vmssoftware.com/images/intro/product/memcached.png',
+      },
+      {
+        name: 'MySQL',
+        image: 'https://pngimg.com/uploads/mysql/mysql_PNG23.png',
+      },
+      {
+        name: 'Ubuntu',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/2048px-UbuntuCoF.svg.png',
+      },
+      {
+        name: 'Kali Linux',
+        image: 'https://seeklogo.com/images/K/kali-linux-logo-AED181186E-seeklogo.com.png',
+      },
+      {
+        name: 'Windows',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/Windows_11.png',
+      },
+    ],
+  },
+
+  
+  {
+    title: 'Web Development',
     skills: [
       {
         name: 'React Js',
         image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K',
-      },
-      {
-        name: 'Angular Js',
-        image: 'https://angular.io/assets/images/logos/angular/angular.png'
       },
       {
         name: 'Redux',
@@ -43,12 +197,6 @@ export const skills = [
         image: 'https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png',
       },
  
-   
-    ],
-  },
-  {
-    title: 'Backend',
-    skills: [
       {
         name: 'Node Js',
         image: 'https://nodejs.org/static/images/logo.svg',
@@ -65,12 +213,6 @@ export const skills = [
         name: 'Java',
         image: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg',
       },
-
-    
-      {
-        name: 'MySQL',
-        image: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg',
-      },
  
       {
         name: 'MongoDB',
@@ -79,61 +221,23 @@ export const skills = [
 
     ],
   },
-  {
-    title: 'Operatig systems',
-    skills: [
-      {
-        name: 'Kali Linux',
-        image:'https://upload.wikimedia.org/wikipedia/commons/2/2b/Kali-dragon-icon.svg',
-      },
-      {
-      name: 'Ubuntu',
-      image:'https://seeklogo.com/images/U/ubuntu-logo-8B7C9ED4AD-seeklogo.com.png',
-      },
-      {
-        name: 'Windows',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/c/c7/Windows_logo_-_2012.png',
-      },
-    ],
-  },
-  {
-    title: 'Others',
-    skills: [
-      {
-        name: 'Git',
-        image: 'https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667',
-      },
-      {
-        name: 'GitHub',
-        image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
-      },
-      {
-        name: 'Docker',
-        image: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg',
-      },
-      {
-        name: 'Jenkins',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg',
-      },
-  
-  
-      {
-        name: 'VS Code',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519',
-      },
-      {
-        name: 'Postman',
-        image: 'https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667',
-      },
+ 
 
-  
-    ],
-    },
 ]
 
 export const experiences = [
   {
     id: 0,
+    img: 'https://media.licdn.com/dms/image/C560BAQHFIzvry0mKAw/company-logo_200_200/0/1630640710152/it_peac_logo?e=2147483647&v=beta&t=Y59OSnvFs9eAX149CYT598PNB6cnnYfcPLyHlAEE1Q8',
+    role: 'DevSecOps Intern',
+    company: 'IT.PEAC',
+    date: 'February-July 2024',
+    desc: 'Automated Deployment of infrastructure on AWS Clou - Automated database migration - Design and implementation of CI/CD pipelines - Improving Security and Compliance of AWS Cloud Infrastructure (Identity and Access Management, Data encryption and backup, Monitoring and Logging and Network Access Control. ',
+    skills: ['AWS Cloud services', 'Terraform', 'Nexus', 'Postgresql ', 'CI/CD', "Bitbucket", "Jira", "Docker"],
+    doc: "",
+  },
+  {
+    id: 1,
     img: 'https://res.cloudinary.com/paypos/image/upload/v1695244951/proxyym_uha3wb.png',
     role: 'MERN stack Devoloper-OCR solution integrator  Intern',
     company: 'Proxym Group',
@@ -143,17 +247,17 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 1,
+    id: 2,
     img: 'https://res.cloudinary.com/paypos/image/upload/v1695245286/paypos_i8gi8y.png',
     role: 'Node.js Developer intern',
     company: 'PayPos',
     date: 'july 2022',
     desc: 'Design and development of a backend API using Node.JS enviornment and Express Framework for an e-commerce website in collaboration with a React.js developer',
     skills: ['JavaScript', 'Node js', 'Express js', 'Mongo DB'],
-    doc: 'https://res.cloudinary.com/paypos/image/upload/v1695229686/attetation_de_stage_1__3_page-0001_vpnnaq.jpg'
+    doc: ''
   },
   {
-    id: 2,
+    id: 3,
     img: 'https://upload.wikimedia.org/wikipedia/fr/f/f9/LOGO_TT_.jpg',
     role: 'Tunsie Telecom Intern  ',
     company: 'Tunisie Telecom',
@@ -167,15 +271,22 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: 'https://res.cloudinary.com/paypos/image/upload/v1689260553/Safta-Portfolio/enetcom_zyuykb.png',
-    school: "National School of Electronics and Telecoms of Sfax (ENET'Com)" ,
-    date: 'sep 2021 - Sep 2024',
-    grade: 'Final Year Telecommunication Engineer - Cyber Sevurity Sector  ',
-    desc: "I am a final-year student of telecommunication engineering at Enetcom Tunisia, pursuing the culmination of my educational journey. Over the course of four semesters, I have diligently engaged in an array of academic pursuits, honing my expertise in diverse subjects. These include network computing, cloud computing, cyber security, algorithms, object-oriented programming, database management systems, and operating systems, with a specific focus on Linux.In addition to my academic endeavors, I actively participate as a valued member of the esteemed Microsoft Tech Club (MTC). Within this esteemed organization, I have had the privilege of collaborating with a team of talented developers on captivating projects, aligning with the club's yearly objectives.",
-    // degree: 'Bachelor of Technology - BTech, Computer Science and Engineering',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqPX9JMLXMRjFBjwwjvvFSmW2r107L35TtYg&s',
+    school: "National Institute of Applied Science (INSA CVL)" ,
+    date: 'sep 2024',
+    grade: 'Cyber security Engineering studies  ',
   },
   {
     id: 1,
+    img: 'https://res.cloudinary.com/paypos/image/upload/v1689260553/Safta-Portfolio/enetcom_zyuykb.png',
+    school: "National School of Electronics and Telecoms of Sfax (ENET'Com)" ,
+    date: 'sep 2021 - Sep 2024',
+    grade: 'Final Year Telecommunication Engineer - Cyber Security Sector  ',
+    desc: "",
+    // degree: 'Bachelor of Technology - BTech, Computer Science and Engineering',
+  },
+  {
+    id: 2,
     img: 'https://res.cloudinary.com/paypos/image/upload/v1689328821/Safta-Portfolio/ipeim_iro2x9.jpg',
     school: 'Monastir Preparatory Engineering Institute',
     date: 'Apr 2019 - Apr 2025',
@@ -184,7 +295,7 @@ export const education = [
     degree: '',
   },
   {
-    id: 2,
+    id: 3,
     img: 'https://res.cloudinary.com/paypos/image/upload/v1689329629/Safta-Portfolio/ljf_qotq0n.jpg',
     school: 'Tahar Sfar Sousse High School (LJF)',
     date: 'sep 2015 - Jul 2019',
@@ -360,7 +471,7 @@ export const projects = [
   },
   {
     id: 6,
-    title: 'Snort IDS Project ',
+    title: 'Snort IDS Project',
     date: 'Apr 2023',
     description: "The Snort IDS Project(Intrusion Detection System) is an exemplary presentation that explores the functional modes of Snort IDS, elucidating its mechanisms of operation. It meticulously discusses the optimal positioning of Snort IDS within a network and provides insightful examples that demonstrate the effective implementation of Snort rules.",
     image: 'https://res.cloudinary.com/paypos/image/upload/v1689367080/ezgif.com-video-to-gif_2_zleyxu.gif',
@@ -423,9 +534,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: 'obtained Bachelor Diploma ', },
+  { year: 2019, text: 'obtained Bachelor Diploma', },
   { year: 2020 ,text: 'Scientific Preparatory studies for engineers', },
   { year: 2021, text: 'Obtained Scientic Preparatory Studies for engineers Diploma '},
   { year: 2022, text: 'Starting my journey to become a telecommunictaion Engineer  & Doing many web Projects', },
-  { year: 2023, text: 'Starting my journey on Devops and Cyber Security', },
+  { year: 2024, text: 'Obtained Engineering Telecommunication Diploma', },
+  { year: 2024, text: '4th year Cyber security engineering studies at INSA', },
 ];

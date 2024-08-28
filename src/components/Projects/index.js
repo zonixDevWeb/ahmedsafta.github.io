@@ -12,7 +12,7 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps, Devops and Security projects.
+          I have worked on a wide range of projects. From DevOps, Security projects to Web apps.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
@@ -20,12 +20,7 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
-          <Divider />
-          {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
-            :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
-          }
+        
           <Divider />
           {toggle === 'Devops Projects' ?
             <ToggleButton active value="Devops project" onClick={() => setToggle('Devops project')}></ToggleButton>
@@ -37,6 +32,12 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton active value="Security project " onClick={() => setToggle('Security project')}>Security Projects</ToggleButton>
             :
             <ToggleButton value="Security project" onClick={() => setToggle('Security project')}>Security Projects</ToggleButton>
+          }
+            <Divider />
+          {toggle === 'web app' ?
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            :
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
