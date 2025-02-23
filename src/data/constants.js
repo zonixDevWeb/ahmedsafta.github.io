@@ -12,6 +12,69 @@ export const Bio = {
 
 export const skills = [
   {
+    title: 'Plateforms & Tools',
+    skills: [
+      {
+        name: 'Openstack',
+        image: 'https://images.seeklogo.com/logo-png/45/1/openstack-logo-png_seeklogo-458267.png',
+      },
+      {
+        name: 'Terraform',
+        image: 'https://static-00.iconduck.com/assets.00/file-type-terraform-icon-455x512-csyun60o.png',
+      },
+      {
+        name: 'Wazuh',
+        image: 'https://wazuh.com/uploads/2022/05/WAZUH.png',
+      },
+      {
+        name: 'Thehive',
+        image: 'https://miro.medium.com/v2/format:webp/0*Q4DUcqqBUADtuRLJ',
+      },
+      {
+        name: 'Shuffle',
+        image: 'https://shuffler.io/images/Shuffle_logo.png',
+      },
+      {
+        name: 'Nexus',
+        image: 'https://cdn.prod.website-files.com/5f10ed4c0ebf7221fb5661a5/5f2af61146c55b6e172fa5b3_NexusRepo_Icon.png'
+      },
+      {
+        name: 'Jenkins',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg',
+      },
+      {
+        name: 'SonarQube',
+        image: 'https://cdn.worldvectorlogo.com/logos/sonarqube-1.svg',
+      },
+      {
+        name: 'Vagrant',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Vagrant.png',
+      },
+      {
+        name: 'Docker',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAJH4R87uV3Rvncs3L3urjeNESAfJGTMTrA&s',
+      },
+      {
+        name: 'Kubernetes',
+        image: 'https://juststickers.in/wp-content/uploads/2018/11/kubernetes-wordmark.png',
+      }, 
+      {
+        name: 'Git',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png',
+      },
+  
+      {
+        name: 'Bitbucket',
+        image: 'https://static-00.iconduck.com/assets.00/bitbucket-icon-454x512-57v0di9k.png',
+      },
+      {
+        name: 'Jira',
+        image: 'https://static-00.iconduck.com/assets.00/jira-icon-2048x2048-nmec2job.png',
+      },
+   
+    ],
+  },
+  {
     title: 'Amazon Web Services',
     skills: [
       {
@@ -75,59 +138,6 @@ export const skills = [
 
     ],
   },
-  {
-    title: 'DevOps',
-    skills: [
-      {
-        name: 'CI/CD',
-        image: 'https://www.mabl.com/hs-fs/hubfs/CICDBlog.png?width=536&name=CICDBlog.png',
-      },
-      {
-        name: 'Jenkins',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg',
-      },
-      {
-        name: 'Nexus',
-        image: 'https://cdn.prod.website-files.com/5f10ed4c0ebf7221fb5661a5/5f2af61146c55b6e172fa5b3_NexusRepo_Icon.png'
-      },
-      {
-        name: 'SonarQube',
-        image: 'https://cdn.worldvectorlogo.com/logos/sonarqube-1.svg',
-      },
-    
-      {
-        name: 'Terraform',
-        image: 'https://static-00.iconduck.com/assets.00/file-type-terraform-icon-455x512-csyun60o.png',
-      },
-      {
-        name: 'Vagrant',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Vagrant.png',
-      },
-      {
-        name: 'Docker',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAJH4R87uV3Rvncs3L3urjeNESAfJGTMTrA&s',
-      },
-      {
-        name: 'Kubernetes',
-        image: 'https://juststickers.in/wp-content/uploads/2018/11/kubernetes-wordmark.png',
-      }, 
-      {
-        name: 'Git',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png',
-      },
-  
-      {
-        name: 'Bitbucket',
-        image: 'https://static-00.iconduck.com/assets.00/bitbucket-icon-454x512-57v0di9k.png',
-      },
-      {
-        name: 'Jira',
-        image: 'https://static-00.iconduck.com/assets.00/jira-icon-2048x2048-nmec2job.png',
-      },
- 
-   
-    ],
-  },
  
   {
     title: 'Services & Operating Systems',
@@ -155,6 +165,10 @@ export const skills = [
       {
         name: 'Ubuntu',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/2048px-UbuntuCoF.svg.png',
+      },
+      {
+        name: 'Centos OS',
+        image: 'https://cdn.freebiesupply.com/logos/large/2x/centos-1-logo-png-transparent.png',
       },
       {
         name: 'Kali Linux',
@@ -225,6 +239,16 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqPX9JMLXMRjFBjwwjvvFSmW2r107L35TtYg&s',
+    role: 'Cybersecurity Engineering Apprentice ',
+    company: 'INSA CVL',
+    date: 'November 2024 - Present',
+    desc: 'Deployment of a private OpenStack cloud, covering all layers of the OSI model. Implementation (development phase) of an automated Security Operations Center (SOC), integrating SIEM tools such as Wazuh, TheHive, VirusTotal, and Shuffle. ',
+    skills: ['Openstack', 'Terraform', 'Wazuh', 'Thehive', 'Opensense', "VirusTotal", "Shuffle"],
+    doc: "",
+  },
+  {
+    id: 1,
     img: 'https://media.licdn.com/dms/image/C560BAQHFIzvry0mKAw/company-logo_200_200/0/1630640710152/it_peac_logo?e=2147483647&v=beta&t=Y59OSnvFs9eAX149CYT598PNB6cnnYfcPLyHlAEE1Q8',
     role: 'DevSecOps Intern',
     company: 'IT.PEAC',
@@ -234,7 +258,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 1,
+    id: 2,
     img: 'https://res.cloudinary.com/paypos/image/upload/v1695244951/proxyym_uha3wb.png',
     role: 'MERN stack Devoloper-OCR solution integrator  Intern',
     company: 'Proxym Group',
@@ -244,7 +268,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 2,
+    id: 3,
     img: 'https://res.cloudinary.com/paypos/image/upload/v1695245286/paypos_i8gi8y.png',
     role: 'Node.js Developer intern',
     company: 'PayPos',
@@ -254,7 +278,7 @@ export const experiences = [
     doc: ''
   },
   {
-    id: 3,
+    id: 4,
     img: 'https://upload.wikimedia.org/wikipedia/fr/f/f9/LOGO_TT_.jpg',
     role: 'Tunsie Telecom Intern  ',
     company: 'Tunisie Telecom',
