@@ -129,7 +129,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_q86bgos', 'template_klopzje', form.current,'nMWSKMXYsBGvmgpU0')
+    emailjs.sendForm('service_f5rqsrg', 'template_klopzje', form.current,'nMWSKMXYsBGvmgpU0')
       .then((result) => {
         console.log("success sent"); 
         setOpen(true);
