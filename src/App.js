@@ -12,6 +12,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+import Articles from "./components/Articles";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 
@@ -36,6 +37,7 @@ function App() {
         <Navbar />
         <Body>
           <HeroSection />
+          <Articles openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Skills />
             <Experience />
@@ -47,6 +49,9 @@ function App() {
           </Wrapper>
           <Footer />
           {openModal.state &&
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          }
+           {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           }
         </Body>

@@ -10,6 +10,7 @@ export const Bio = {
   facebook: "https://www.facebook.com/ahmed.safta.7",
 }
 
+
 export const skills = [
   {
     title: 'Plateforms & Tools',
@@ -244,7 +245,7 @@ export const experiences = [
     company: 'INSA CVL',
     date: 'November 2024 - Present',
     desc: 'Deployment of a private OpenStack cloud, covering all layers of the OSI model. Implementation (development phase) of an automated Security Operations Center (SOC), integrating SIEM tools such as Wazuh, TheHive, VirusTotal, and Shuffle. ',
-    skills: ['Openstack', 'Terraform', 'Wazuh', 'Thehive', 'Opensense', "VirusTotal", "Shuffle"],
+    skills: ['Openstack', 'Terraform', 'Wazuh', 'Thehive', 'Opensense', "VirusTotal", "Shuffle","Networking","Vlans" ],
     doc: "",
   },
   {
@@ -336,6 +337,7 @@ export const projects = [
     tags: ['Jenkins','Git','Nexus Sonatype','SonarQube','CheckStyle','Gihub WebHooks','Slack notifier'],
     category: 'Devops project',
     github: '',
+    link: 'https://www.linkedin.com/posts/ahmed-safta-094a6321a_continuous-integration-with-jenkins-activity-7130495518157230080-xGUr?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdUUrAB-tEkePefO-DTTx8a8ceQeIm6upo',
     member: [
       {
         name: 'Ahmed Safta',
@@ -358,6 +360,7 @@ export const projects = [
     tags: ['AWS','EC2','Security groups ','Route53','IAM','S3 bucket','Auto scaling groups','NameCheap Domain name',"Certificate Authority" ,'IAAS','PayAsUgo',"Automation"],
     category: 'Devops project',
     github: '',
+    link: 'https://www.linkedin.com/posts/ahmed-safta-094a6321a_aws-project-lift-shift-application-workload-activity-7097325092992360449-U730?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdUUrAB-tEkePefO-DTTx8a8ceQeIm6upo',
     member: [
       {
         name: 'Ahmed Safta',
@@ -460,7 +463,7 @@ export const projects = [
     tags: ['JavaScript','HTML5'],
     category: 'web app',
     github: '',
-    webapp: '',
+    link:'',
     member: [
       {
         name: 'Ahmed Safta',
@@ -541,6 +544,7 @@ export const projects = [
     tags: ['Virtual machines','Vagrant', 'NGINX','TOMCAT','RabbitMQ', 'MEMCACHED', 'MYSQL','Java app'],
     category: 'Devops project',
     github: '',
+    link: 'https://www.linkedin.com/posts/ahmed-safta-094a6321a_devops-virtualisation-automation-activity-7089678405935190016-UohA?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdUUrAB-tEkePefO-DTTx8a8ceQeIm6upo',
     member: [
       {
         name: 'Ahmed Safta',
@@ -553,13 +557,60 @@ export const projects = [
   },
  
 
+]
+
+export const articles = [
+
+  {
+    id: 0,
+    title: ' Openstack installtion Troubleshooting',
+    date: 'Feburary 2025',
+    description: "In this post, I covered the absolute basics of TLS/SSL certificates — what they are, why we need them, and how they efficiently secure our web servers.",
+    image: 'https://www.logo.wine/a/logo/OpenStack/OpenStack-Logo.wine.svg',
+    tags: ['Openstack','Troubleshooting','Private-cloud','Centos-os','Caracal'],
+    category: 'Openstack',
+    link: 'https://www.linkedin.com/posts/ahmed-safta-094a6321a_openstack-troubleshooting-activity-7294864948378173440-ZiwV?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdUUrAB-tEkePefO-DTTx8a8ceQeIm6upo'
+  },
+
+
+
+  {
+    id: 1,
+    title: 'Understanding TLS Certificates: Securing Your Web Traffic Against Cyber Attacks',
+    date: 'September 2024',
+    description: "In this post, I covered the absolute basics of TLS/SSL certificates — what they are, why we need them, and how they efficiently secure our web servers.",
+    image: 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*Bx1UzBcobud-LSTEQsIxmg.gif',
+    tags: ['"TLS/SSL certificates','Cybersecurity','Web traffic','Certificate Authority'],
+    category: 'Cybersecurity',
+    link: 'https://medium.com/@ahmedsafta71/understanding-tls-certificates-securing-your-web-traffic-against-cyber-attacks-293009320160'
+ 
+  },
+ 
+  {
+    id: 2,
+    title: 'Why I Chose AWS Step Functions Over Lambda: A Deep Dive Through a Real Use Case',
+    date: 'August 2024',
+    description: "In this post, I covered the absolute basics of TLS/SSL certificates — what they are, why we need them, and how they efficiently secure our web servers.",
+    image: 'https://res.cloudinary.com/paypos/image/upload/v1740349297/58ae5174-cc61-46b3-9559-8dcd74a94d45.png',
+    tags: ['AWS','Lambdafunction','Step functions'],
+    category: 'AWS',
+    link: 'https://medium.com/@ahmedsafta71/why-i-chose-aws-step-functions-over-lambda-a-deep-dive-through-a-real-use-case-fcae97930062',
+  
+  },
+
+
+
+
+ 
+ 
+
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: 'obtained Bachelor Diploma', },
-  { year: 2020 ,text: 'Scientific Preparatory studies for engineers', },
-  { year: 2021, text: 'Obtained Scientic Preparatory Studies for engineers Diploma '},
-  { year: 2022, text: 'Starting my journey to become a telecommunictaion Engineer  & Doing many web Projects', },
-  { year: 2024, text: 'Obtained Engineering Telecommunication Diploma', },
-  { year: 2024, text: '4th year Cyber security engineering studies at INSA', },
+  { year: 2019, text: 'Earned Baccalaureate Exam Diploma.' },
+  { year: 2020 ,text: 'Scientific Preparatory studies for engineers' },
+  { year: 2021, text: 'Earned Scientic Preparatory Studies for engineers Diploma '},
+  { year: 2022, text: 'Starting my journey to become a telecommunictaion Engineer', },
+  { year: 2024, text: 'Earned Engineering Telecommunication Diploma', },
+  { year: 2024, text: 'Starting my journey to specialize in Cybersecurity at INSA CVL Engineering school', },
 ];
