@@ -3,7 +3,7 @@ export const Bio = {
   roles: ["DevOps engineer","Cyber Security Enthusiast"],
   description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/AhmedSafta71",
-  resume: "https://drive.google.com/file/d/1FB6tu8xAHc-zHoW73I7ouISdhTQSbtYP/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1ccY9EZRPKpT3yEReaRR_hY3QvmzDpPpG/view?usp=sharing",
   linkedin: "www.linkedin.com/in/safta-ahmed-094a6321a",
   // Medium: "https://medium.com/@ahmedsafta71",
   insta: "https://www.instagram.com/safta.ahmed/",
@@ -569,7 +569,7 @@ export const articles = [
     image: 'https://www.logo.wine/a/logo/OpenStack/OpenStack-Logo.wine.svg',
     tags: ['Openstack','Troubleshooting','Private-cloud','Centos-os','Caracal'],
     category: 'Openstack',
-    link: 'https://www.linkedin.com/posts/ahmed-safta-094a6321a_openstack-troubleshooting-activity-7294864948378173440-ZiwV?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdUUrAB-tEkePefO-DTTx8a8ceQeIm6upo'
+    link: 'https://medium.com/@ahmedsafta71/openstack-troubleshooting-a-deep-dive-into-manual-installation-isssues-68ba40b0c63a'
   },
 
 
